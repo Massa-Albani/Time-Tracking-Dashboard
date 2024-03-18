@@ -2,8 +2,8 @@ const daily_btn = document.getElementById("daily_btn");
 const weekly_btn = document.getElementById("weekly_btn");
 const monthly_btn = document.getElementById("monthly_btn");
 
-let isDaily, Daily = false;
-let isWeekly, Weekly = true;
+let isDaily = false;
+let isWeekly = true;
 let isMonthly = false;
       
 function toggleDaily() {
@@ -18,5 +18,6 @@ function toggleMonthly() {
       
 function renderCard() {
     if (isDaily) {
+        
     }
 }
